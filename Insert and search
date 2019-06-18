@@ -30,7 +30,6 @@ void insert(trienode* root, string s)
         temp=temp->Children[in];
     }
     temp->isend=true;
-    cout<<"isend: "<<temp<<endl;
 }
 bool search(trienode* root,string s)
 {
@@ -64,3 +63,5 @@ int main() {
 	
 	return 0;
 }
+
+
